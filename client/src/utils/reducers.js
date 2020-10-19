@@ -1,5 +1,4 @@
-// import React Hook
-import { useReducer } from 'react';
+
 // import our actions
 import {
   UPDATE_PRODUCTS,
@@ -13,7 +12,15 @@ import {
   TOGGLE_CART,
 } from './actions';
 
-export const reducer = (state, action) => {
+const initialState = {
+  products: [],
+  categories: [],
+  currentCategory: '',
+  cart: [],
+  cartOpen: false
+};
+
+export const reducers = (state = initialState, action) => {
   switch (action.type) {
     // if action type value is the value of 'UPDATE_PRODUCTS', return a new state object with an updated products array
     case UPDATE_PRODUCTS:
@@ -87,6 +94,4 @@ export const reducer = (state, action) => {
   }
 };
 
-export function useProductReducer(initialState) {
-  return useReducer(reducer, initialState);
-}
+export default reducers;
