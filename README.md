@@ -15,12 +15,10 @@ An ecommerce webpage
 Shop-Shop is an ecommerce app using a redux store.
 
 ## Deployed Link
-[Shop-Shop](https://sleepy-dawn-59938.herokuapp.com/)
+[Shop-Shop](https://peaceful-taiga-43036.herokuapp.com/)
 
 ## Screenshots
 ![Shop-Shop](./client/src/assets/ShopShopScreenshot.png)
-
-
 
 ## Setup
 * Clone GitHub repository 
