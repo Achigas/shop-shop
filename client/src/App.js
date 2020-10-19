@@ -8,7 +8,8 @@ import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import Nav from "./components/Nav";
+import Nav from "./components/Nav"; 
+import Success from "./pages/Success"
 import { StoreProvider } from "./utils/GlobalState";
 import OrderHistory from "./pages/OrderHistory";
 
